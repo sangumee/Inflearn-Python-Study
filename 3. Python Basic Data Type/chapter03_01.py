@@ -18,8 +18,8 @@ dict
 str1 = "Python"
 bool = True
 str2 = 'Anaconda'
-float = 10.4 # 10 == 10.0 -> False
-int = 7
+float_v = 10.4 # 10 == 10.0 -> False
+int_v = 7
 list = [str1, str2]
 print(list)
 dict = {
@@ -33,8 +33,8 @@ set = {3, 5, 7}
 print(type(str1))
 print(type(bool))
 print(type(str2))
-print(type(float))
-print(type(int))
+print(type(float_v))
+print(type(int_v))
 print(type(list))
 print(type(dict))
 print(type(tuple))
@@ -93,3 +93,34 @@ print(">>>>>>>*")
 print("i1 * i2 : ", i1 * i2)
 print("f1 * f2 : ", f1 * f2)
 print("big_int1 * big_int2 : ", big_int1 * big_int2)
+
+# Type Conversion
+a = 3.
+b = 6
+c = .7
+d = 12.7
+
+# Print Type
+print(type(a), type(b), type(c), type(d))
+
+print(float(b))
+print(int(c))
+print(int(d))
+print(int(True)) # True : 1 False : 0
+print(float(False)) # 0.0
+print(complex(3))
+print(complex('3')) # String -> Number
+print(complex(False))
+
+# Numerical computation function
+print(abs(-7))
+
+x, y = divmod(100, 8)
+print(x, y)
+print(pow(5,3), 5 ** 3)
+
+# External Module
+import math
+
+print(math.ceil(5.1)) # The smallest integer in the number x and above.
+print(math.pi)
