@@ -50,12 +50,11 @@ print('{:10.5}'.format('pythonstudy'))
 # %d
 print('%d %d' % (1,2))
 print('{} {}'.format(1,2))
-
 print('%4d' % (42))
 print('{:4d}'.format(42))
 
 # %f
 print('%f' % (3.1494294242))
 print('{:f}'.format(3.1494294242))
-
 print('%06.2f' % (3.1494294242))
+print('{:06.2f}'.format(3.1494294242))
