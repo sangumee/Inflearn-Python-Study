@@ -52,3 +52,34 @@ def conv_abs(x):
 
 
 print(list(map(conv_abs, [1, -3, 2, 0, -5, 6])))
+
+# pow : Square value
+print(pow(2, 10))
+
+# range : Return repeatable(Iterable) objects
+print(range(1, 10, 2))
+print(list(range(0, -15, -1)))
+
+# round
+print(round(6.591, 2))
+print(round(5.4))
+
+# sorted : Return repeatable(Iterable) objects
+print(sorted([6, 3, 12, 61, 1]))
+
+a = sorted([6, 3, 12, 61, 1])
+print(a)
+
+# sum
+print(sum([5, 3, 4, 1, 5]))
+print(sum(range(1, 101)))
+
+# type
+print(type(3))
+print(type({}))
+print(type(()))
+print(type([]))
+
+# zip : Return repeatable(Iterable) objects
+print(list(zip([10, 20, 30], [40, 50, 60])))
+print(type(list(zip([10, 20, 30], [40, 50, 60]))))
