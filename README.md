@@ -1,2 +1,3 @@
 # Inflearn-Python-Study
-Python Study from Inflearn
+
+Python Development Course at 'Inflearn'
